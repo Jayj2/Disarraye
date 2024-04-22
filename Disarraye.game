@@ -1,0 +1,40 @@
+<shmup>
+	<VERSION versionNumber = "1.5.11" />
+	<GAME name = "Disarraye" parentPlayerName="PlayerDefault01" gameScreenName="Disarraye" explosionLightColor="2 0.5 0 0" playerInvincibleColor="0 0.2 0.6 0" enemyHitColor="0.5 0.1 0 0" aimTextureName="stickPointer.png" isCollisions3D="false" isGameStillPlayingWhenWin="false" levelTypePreference="1" isOptimiseSpritesExport="false" isBulletsSeparateAnimation="true" isBulletOnTopOfPlayer="true" />
+
+	<GAMEPLAY continues = "0" life="3" maxEnergy="3" lives = "3" checkPointKillEnemies="false" checkPointResetLevel="false" padCurvePower="0" checkPointOnlyWithContinue="false" waveLifeOutsideScreenTime="5" bulletOutsideScreenTime="0.5" itemLifeOutsideScreenTime="0.2" isPauseWhenUnseen="false" smartBombSfx="ExplosionNew_BoDSmart" smartBombButton="1" isSmartbombUseButton="false" maxSmartBombs="9" isSmartBombLostWhenDead="false" smartBombInvincibleTime="0" smartBombNoShootTime="3" smartBombDuration="0.8" smartBombStartNumber="0" isSmartCancelling="false" smartItemName="" smartPower="20" deathResetsMultiplier="true" maxPlayerPowerUps="3" playerPowerUpBehavior="0" extendType="0" extendScore1="100000" extendScore2="500000" extendEvery="100000" weaponSafeZone="2 98 2 98" isInvincibilityLimits="false" invincibilityLimits="0 1 0 1" isForceFieldUsesBoundOBB="true" powerUpVar="Disarraye17516680992325913924" />
+
+	<SCORING isChaining = "false" timeBetweenChains="1" isSmartBombsBreakMultiplier="false" isNextLevelBreakMultiplier="false" maxMultiplier="999" smartBombScore="0" maxChains="999" isChainingKillsOnly="true" isHitKeepChain="false" isHitChainHP="1" chainAddedPoints="1" decreasingMultSpeed="0" isEnemiesTotalChaining="false" isShowEnemyScore="false" isShowItemScore="false" isShowMultiplier="false" scoreTextureName="score_default.png" multiplierTextureName="score_default.png" scoreParticleName="scoreParticles" multiplierParticleName="multiplierParticles" scoreTextureScale="1" multiplierTextureScale="1" maximumScore="999999999999999" />
+	<MEDALS isMedalsChaining = "false" isLoosingMedailBreakMultiplier="false" maxMedailValue="9999" isChainingMedalIncrementMedailScore="false" isChainingMedalIncrementMedailType="false" isMedalsTotalChaining="false" isChainingMedalScoreAsMult="false" isDeathResetMedals="true" />
+
+	<GAUGE maxGauge = "100" isGauge="false" isResetGaugeNextLevel="true" isGaugeCancels="true" isButtonStartGaugeUntilTheEnd="false" isResetGaugePlayerDeath="true" gaugeCancelDuration="0" minStartgauge="100" gaugeDrainSpeed="20" isGaugeSwitch="false" gaugeWeaponSetNumber="0" gaugeWeaponMultiplier="1" gaugeInvincibleTime="0" gaugeSpawnedItem="" gaugeStartSpawnedItem="" gaugeButtonNumber="2" hitAddGauge="0" killAddGauge="0" position="0 0.05" dimensions="0.25 0.02" GaugeTextureBack="enemyBar_back.png" GaugeTextureFront="enemyBar_front.png" GaugeTextureReady="" isGaugeGfx="false" isGaugeColoured="true" dontAddToGaugeWhenStarted="false" gaugeStartParticleFX="" isGaugeWeaponStartEvenIfNotFull="false" />
+
+	<CHAINGAUGE position = "0 0.05" dimensions="0.25 0.02" ChainGaugeTextureBack="enemyBar_back.png" ChainGaugeTextureFront="enemyBar_front.png" isChainTimerGfx="false" isChainGaugeColoured="true" />
+
+
+	<SOUNDS startMenuMusic = "" pauseSound="pause.wav" pauseSoundVolume="70" continueSound="" continueSoundVolume="0.9" gameOverMusic="" gameWonMusic="" gameCompleteMusic="" startMenuValidate="game_start.ogg" startMenuBack="menuBack.mp3" startMenuGo="menuGo.mp3" startMenuClick="Menu_Click.ogg" startMenuStartsGame="game_start.ogg" Sound1up="item.wav" gaugeReadySound="" gaugeReadySoundVolume="1" gaugeStartSound="" gaugeStartSoundVolume="1" cancelSoundName="item.wav" masterVolume="80" musicVolume="60" sfxVolume="60" defaultMasterVolume="80" defaultMusicVolume="60" defaultSfxVolume="60" explosionSoundPanning="0" textSound="Menu_Click.ogg" textSoundVolume="0.2" />
+
+	<GFX screenRatio = "1" cancelSfxName="Bullet_Cancel" isPlayerDeadAfterLifeSpwanSfx="true" BGCollisionSfx="" upSfx="basic_1up" spriteScale="2" isExplosionSpawnLight="true" />
+
+
+	<STARTMENU startMenuBackground = "stars.png" isStartMenuBGWidthAligned="false" splashScreenPicture="" splashScreen1Duration="1" splashScreenPicture2="" splashScreen2Duration="1" startMenuLogoGfx="" startMenuLogoGfxSize="0.5" startMenuLogoFont="ArialBlk64" startMenuBGScrollSpeed="0 0.02" startMenuLogoFontSize="32" startMenuLogoFontColour="1 0.67 0.16 1" startMenuAlign="0" startMenuLogoPosition="0 0.2" startMenuLogoIsText="true" isLogoAnimatedTransition="true" startMenuFont="ArialBlk64" startMenuFontColour="1 1 1 1" startMenuFontInterval="1" startMenuFontHooverColour="1 0.8 0.5 1" startMenuFontSize="24" startMenuCenter="0 -0.65" startMenuTransitionOffset="1 0" startMenuHooverScale="1.1" isTransitionAlpha="true" isBlinkingHoover="true" startMenuBlock="0" startMenuBlockTextureName="startMenuBlockTexture_blueGradient.png" startMenutransitionFocusTime="0.2" startMenutransitionScreenTime="0.4" startMenuTransitionwaitTime="0.1" startMenuoffsetX="20" />
+
+	<DEFAULTCONTROLS deadzone = "25" leftStickNumber="2" rightStickNumber="2" shootButtonNumber0="0" shootButtonNumber1="1" shootButtonNumber2="2" shootButtonNumber3="3" start="6" select="4" upKey="17" downKey="31" leftKey="30" rightKey="32" startButton="57" selectButton="28" shootButton0="44" shootButton1="45" shootButton2="46" shootButton3="47" />
+
+	<HIGHSCOREMENUS highScoreFont = "ArialBlk64" isHSTransitionAlpha="true" isHSshowLevels="false" isHSNewScoreScale="3" HSTransitionOffset="0 0" HSTransitionwaitTime="0.1" HSFontColour="1 1 1 1" HSFontNewScoreColour="1 0.5 0 1" HSspinnerSound="Menu_Click.ogg" HSleftRightSound="Menu_Click.ogg" HSvalidateSound="menuGo.mp3" HSMenuBG="pauseMenu.png" scoreSpeed="1" scoreFontColour="1 1 1 1" scoreSound="Menu_Click.ogg" scoreFont="ArialBlk64" scoreGameSpeed="1" />
+
+	<GAMEMENUS lifeBarPosition = "0.5 0.1" lifeBarDimensions="0.25 0.02" EnemyLifeBar_color="1 0.3 0 1" enemyLifebarTextureBack="enemyBar_back.png" enemyLifebarTextureFront="" enemyBossLifebarTextureFront="enemyBar_front.png" enemyBossLifebarTextureBack="enemyBar_back.png" createEnemyBossLifeBar_Dimensions="1 0.08" createEnemyBossLifeBar_Pos="0.5 0.1" enemyLifeBarBossLayerNumber="4" EnemyBossLifeBar_color1="0 1 0.6 1" EnemyBossLifeBar_color2="1 0.8 0 1" EnemyBossLifeBar_color3="0.9 0.4 0 1" EnemyBossLifeBar_color4="0.7 0 0 1" barAnimationSpeed="1" isEnemyBars="false" isOnlyBossLifebar="true" minHpShowLifeBar="2" gameMenuFont="verdana" gameMenuFontColour="1 1 1 1" gameOverDisplay="2" gameEndFont="ArialBlk64" gameEndFontSize="32" gameOverBlackBG="true" gameOverText="GAME OVER" gameOverGfx="" gameOverGfxScale="0.8" gameOverPosition="0 0" gameWinDisplay="2" gameWinBlackBG="false" gameWinText="LEVEL COMPLETE" gameWinGfx="" gameWinGfxScale="0.8" gameWinPosition="0 0" gameCompletedDisplay="2" gameCompletedBlackBG="true" gameCompletedText="YOU COMPLETED THE GAME!!!" gameCompletedGfx="" gameCompletedGfxScale="0.8" gameCompletedPosition="0 0" gamePauseText="PAUSE" gamePauseGfx="" gamePauseGfxScale="0.5 0.5" gamePausePosition="0 0" />
+
+	<GAMEHUD gameHUDFont = "metal" gameHUDFontColour="1 1 1 1" gameHUDFontSize="16" isShowExitToDesktop="true" pauseMenuBG="pauseMenu.png" pauseMenuFont="ArialBlkOutline18" pauseMenuFontColour="1 1 1 1" pauseMenuFontColourHoover="1 1 1 1" HUD_livesShow="false" HUD_scoreShow="true" scoreFormating="3" HUD_HpShow="false" HUD_bombsShow="false" HUD_multiplierShow="false" HUD_chainsShow="false" HUD_chainsTimerShow="false" HUD_livesPos="-1 1" HUD_scorePos="0 1" HUD_HpPos="-1 1" HUD_bombsPos="1 1" HUD_multiplierPos="0.4 1" HUD_chainsPos="0.45 1" HUD_chainsTimerPos="0.65 1" HUD_livesJustif="1" HUD_scoreJustif="0" HUD_HpJustif="1" HUD_bombsJustif="2" HUD_multiplierJustif="1" HUD_chainsJustif="1" HUD_chainsTimerJustif="1" gameHUDBG_texture="" gameHUDBG_position="-1 1" gameHUDBG_dimension="1 0.1" />
+
+	<LEVEL name = "level001" screenName="Level 1" thumbnail="" isTriggerEnd="false" isGameplayLevel="true" isIncludedInBuild="true" />
+
+
+
+	<Extension name = "2D Geometry Assets" />
+	<Extension name = "2D Space Assets" />
+
+
+</shmup>
+
+
